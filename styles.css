@@ -1,0 +1,251 @@
+/*   Adgala, Rohan Karthik    Account:  jadrn002
+        CS545, Fall 2015
+        Project #1
+*/
+/*Reference: www.W3Schools.com*/
+*{
+	margin: 0;
+	padding:0;
+} 
+html,body{
+	height:100%;
+	background-color: #F1F2F1 ;
+	overflow: hidden;
+}
+#bodyoverflow{
+	height:100%;
+	background-color: #F1F2F1 ;
+	overflow: auto;	
+}
+.container{
+	min-height: 95%;    
+    margin: 1% 5% 1% 5%;    
+    position: relative;
+    height: 100%;
+}
+.banner{	
+	padding: 30px 0;
+    margin: 10px;
+    margin-bottom: 0;
+    background-color: #009246 ;
+    color: white;
+    border: 5px solid #009246 ;
+    border-radius: 5px;  
+}
+#bannerimage{
+	width: 70px;
+	height: 70px;
+	text-align: center;
+}
+.menubar{
+	display: inline;
+	 margin: 1% 5% 1% 5%;
+}
+#menuitems  {	
+    text-align: center;
+}
+#menuitems li {	
+    display:inline;    
+}
+#menuitems a {
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
+    border: 2px solid #000000;
+    color:  #000000;
+    background-color: #F1F2F1 ;
+    border-radius: 5px;
+    font-size: 200%;
+}  
+#menuitems a:hover {
+	background-color: #C0C0C0;
+	color: #000000;
+}
+#menuitems a:active {
+    background-color: #000000;
+    color:#FFDD00;
+}
+h1{
+	text-align: center;
+	font-size: 300%;
+}
+.content{
+	text-align: center;
+	height: 60%;
+	margin:25px 15px;
+}
+.content p {
+	margin-left: 0px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-right: 0px;
+	text-align: justify;
+	font-size: 130%;
+}
+img {
+    float: left;
+    width: 250px;
+    margin: 0 25px 10px;
+    border: 1px solid black;
+}
+h2{
+   	font-size: 200%;
+   	text-align: center;
+}
+h3 {
+   	color: red;
+}
+p{
+   	font-size: 150%;
+}
+#sidebar  {	
+    text-align: center;
+}
+#sidebar li {	 
+  	padding: 5px 10px 5px 10px;
+  	margin:  15px 10px 15px 10px;
+}
+#sidebar a {
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;   
+    color:  #F1F2F1;
+    font-size: 150%;  
+    border-radius: 5px;
+    text-decoration: underline;
+} 
+#sidebar a:active {
+	background-color: #CE2B37;
+}
+#left_column {
+	float: left;
+	width: 200px;
+	height: 100%;	
+	color: #009246;	
+	background-color:#009246;	
+	border-radius: 10px;
+}
+/* Don't set padding on the div containers, put it here. */	
+#left_column p {
+	padding: 15px 15px 15px 15px;
+
+}		
+#right_column {
+	text-align: center;
+	height: 100%;
+}
+#right_column p {
+	padding: 15px 15px 15px 15px;
+}
+#history{
+	width: 300px;
+	height: 300px;
+}
+#historyimage {
+	float: left;
+	width: 500px;
+	height: 440px;
+	margin: 5px 15px 25px 10px;
+	border: 1px solid black;
+}
+#sitescontent {
+    padding: 20px;
+    }    
+#sitescontent table {
+    width: 50%;
+    margin: auto;
+    border-collapse: collapse;          
+    }
+#sitescontent th {
+    color: white;
+    background-color: #CE2B37;
+    border: 1px solid #000000;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 150%;
+    }    
+#sitescontent td {
+    border: 1px solid #000000; 
+    padding: 5px 10px;
+    font-size: 150%;
+    }    
+#sitescontent tr td:nth-child(odd) {
+    background-color: #F1F2F1;
+    font-weight: bold;    
+    }    
+#sitescontent tr td:nth-child(even) {
+    background-color: #F1F2F1;
+    font-style: italic;
+    font-weight: bold;
+    }      
+#sitescontent h2{
+	text-align: center;
+	margin-bottom: 10px;
+}
+#indexcontent{
+	text-align: center;
+	margin: 10px 10px 10px 10px;
+}   
+#titles{
+	margin-bottom: 15px;
+}
+.clear_it {
+	clear: both;
+}  
+.restaurantscontent h2 {
+	text-align: center;
+}   
+.restaurantscontent h1 {
+	text-align: left;
+	margin-left: 10px;
+}    
+.foodcontent{
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.foodcontent li{    
+	display: inline;
+	font-style: italic;
+	font-weight: bold;    	
+	padding: 5px 10px 5px 10px;  
+	font-size: 150%;  	    	
+}
+.foodcontent ul {
+	text-align: center;
+}
+.foodcontent h1{
+	text-align: left;
+	margin-left: 10px;
+}
+.foodcontent h2{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.neighborhoodcontent {
+	margin-top: 5px;
+}    
+.neighborhoodcontent h2{
+	text-align: center;
+}
+div.desc {
+	text-align: center;
+	font-weight: normal;
+	width: 220px;
+	margin: 10px;
+	font-size: 120%;
+	text-align: justify;
+}
+.img{
+	display: inline-block;
+}
+.img img{
+	width: 200px;
+	height: 200px;
+    margin: 10px 10px 10px 10px;
+    border: 1px solid black;
+    float: left;   
+    text-align: center;
+}
+
+
+
